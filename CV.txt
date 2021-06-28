@@ -1,0 +1,74 @@
+    Sergej Jaskiewicz
+    jaskiewiczs@icloud.com
+    https://broadwaylamb.com
+    +7 (921) 188-43-13
+
+    Active open source contributor, love compilers, programming languages
+    and iOS development. Always pursuing quality.
+
+* Key skills
+
+    + Expert knowledge of Swift, including writing cross-platform
+      applications and libraries.
+    + Solid wknowledge of C++, Rust and Python.
+    + Basic knowledge of Haskell.
+    + Experience in configuring, using and developing LLVM toolchains.
+    + Proficient in iOS frameworks: UIKit, Combine, Foundation, XCTest,
+      Dispatch.
+    
+    Respectful team member and code reviewer; active user of command line and
+    automation tools, wrote such tools myself.
+
+    Professional interests: LLVM, compilers, programming languages, operating
+    systems, reverse engineering, low-level programming, functional programming.
+
+    Languages: 
+        + Russian — native proficiency.
+        + English — full professional proficiency.
+    
+* Open Source
+
+    My open source work includes commits to LLVM, libc++, libunwind,
+    the Swift compiler, the GHC compiler, and many lesser known projects.
+    
+    I am also the author and maintainer of OpenCombine, a popular open source
+    implementation of Apple's Combine framework:
+    https://github.com/OpenCombine/OpenCombine
+
+
+* Employment history
+
+    + August 2019 – November 2020
+      C/C++ Developer, Access Softek
+
+      Built an LLVM-based toolchain for cross-compiling from Windows
+      to ARM Linux.
+
+      Improved the testing infrastructure for libc++, libunwind,
+      and other projects under the LLVM umbrella.
+
+      Helped to implement a C++20 feature in Clang compiler frontend.
+    
+    + July 2017 – October 2018
+      iOS Developer, Octopod
+
+      Developed a trading app for Bank Otkritie —
+      "Otkritie Investments - trader".
+
+      The app lets the user track state their broker accounts on convenient
+      charts, transfer assets, perform trading operations online, and much more.
+      
+      "Otkritie Investments - trader" is a secure, modern looking and carefully
+      designed application, Tagline Awards 2018 winner,
+      Top-200 Finance in App Store. App Store link: https://apple.co/2YE6N5H
+
+* Education
+
+    + 2014 – 2018
+      Saint Petersburg State University, Mathematics and Mechanics, B. Sc.
+    
+    + 2018 – present
+      Computer Science Center, student.
+      Also assisted at teaching the C++ course.
+
+Up to date version of this resume can be found at https://broadwaylamb.com/CV
