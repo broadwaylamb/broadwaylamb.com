@@ -10,7 +10,7 @@
 
     + Expert knowledge of Swift, including writing cross-platform
       applications and libraries.
-    + Solid wknowledge of C++, Rust and Python.
+    + Solid knowledge of C++, Rust and Python.
     + Basic knowledge of Haskell.
     + Experience in configuring, using and developing LLVM toolchains.
     + Proficient in iOS frameworks: UIKit, Combine, Foundation, XCTest,
@@ -55,7 +55,7 @@
       Developed a trading app for Bank Otkritie —
       "Otkritie Investments - trader".
 
-      The app lets the user track state their broker accounts on convenient
+      The app lets the user track state of their broker accounts on convenient
       charts, transfer assets, perform trading operations online, and much more.
       
       "Otkritie Investments - trader" is a secure, modern looking and carefully

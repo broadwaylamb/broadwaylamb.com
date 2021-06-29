@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sergej Jaskiewicz &mdash; CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="98.css" type="text/css">
+
+    <style>
+        #main-window {
+            position: fixed;
+            height: calc(67vh - 22px);
+            left: 50%;
+            transform: translate(-50%, 25%) scale(1.5);
+        }
+
+        #main-window-body {
+            height: calc(100% - 40px);
+        }
+
+        #cv-content {
+            height: calc(100% - 3em - 27px);
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            white-space: pre-wrap;
+            overflow: auto;
+        }
+
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            #main-window {
+                position: absolute;
+                transform: none;
+                height: initial;
+                top: 0;
+                left: initial;
+            }
+            .title-bar {
+                display: none;
+            }
+            #cv-content, #cv-content * {
+                visibility: visible;
+            }
+            #cv-content {
+                box-shadow: initial;
+                padding: initial;
+                margin: initial;
+                width: initial;
+                height: initial;
+                left: initial;
+                top: initial;
+                margin-block-start: initial;
+                margin-block-end: initial;
+                overflow: visible;
+                font-size: x-small;
+            }
+        }
+    </style>
+</head>
+<body style="background-color: #008888;">
+    <script type="text/javascript">
+        function urlify(text) {
+            var urlRegex = /(https?:\/\/[^\s]+)/g;
+            var emailRegex = /\S+@\S+\.\S+/g;
+            return text.replace(urlRegex, function(url) {
+                return '<a href="' + url + '">' + url + '</a>';
+            }).replace(emailRegex, function(url) {
+                return '<a href="mailto:' + url + '">' + url + '</a>';
+            })
+        }
+
+        fetch('CV.txt')
+            .then(response => response.text())
+            .then(urlify)
+            .then(text => document.getElementById('cv-content').innerHTML = text);
+
+        function downloadCV() {
+            var a = document.createElement('a');
+            a.setAttribute('href', 'CV.txt');
+            a.setAttribute('target', '_blank')
+            a.setAttribute('download', 'CV.txt');
+
+            a.style.display = 'none';
+            document.body.appendChild(a);
+
+            a.click();
+
+            document.body.removeChild(a);
+        }
+    </script>
+    <div id="main-window" class="window">
+        <div class="title-bar">
+            <div class="title-bar-text">CV.txt</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close" onclick="window.location.href='index.html';"></button>
+            </div>
+        </div>
+        <div id="main-window-body" class="window-body">
+            <pre id="cv-content"></pre>
+            <section class="field-row" style="justify-content: flex-end">
+                <button onclick="window.print();">Print</button>
+                <button onclick="downloadCV();">Download</button>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
+
