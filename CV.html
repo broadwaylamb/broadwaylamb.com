@@ -65,7 +65,7 @@
             var urlRegex = /(https?:\/\/[^\s]+)/g;
             var emailRegex = /\S+@\S+\.\S+/g;
             return text.replace(urlRegex, function(url) {
-                return '<a href="' + url + '">' + url + '</a>';
+                return '<a href="' + url + '" target="_blank">' + url + '</a>';
             }).replace(emailRegex, function(url) {
                 return '<a href="mailto:' + url + '">' + url + '</a>';
             })
