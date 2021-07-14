@@ -1,6 +1,7 @@
     Sergej Jaskiewicz
     jaskiewiczs@icloud.com
     https://broadwaylamb.com
+    https://github.com/broadwaylamb
     +7 (921) 188-43-13
 
     Active open source contributor, love compilers, programming languages
@@ -34,7 +35,6 @@
     I am also the author and maintainer of OpenCombine, a popular open source
     implementation of Apple's Combine framework:
     https://github.com/OpenCombine/OpenCombine
-
 
 * Employment history
 
