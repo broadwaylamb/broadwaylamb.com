@@ -38,6 +38,9 @@
 
 * Employment history
 
+    + August 2021 — present
+      Software Developer in Kotlin JS & Wasm, JetBrains
+
     + August 2019 – November 2020
       C/C++ Developer, Access Softek
 
