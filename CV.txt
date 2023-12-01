@@ -26,6 +26,7 @@
     Languages: 
         + Russian — native proficiency.
         + English — full professional proficiency.
+        + Dutch — A2 level
     
 * Open Source
 
