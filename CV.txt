@@ -39,7 +39,10 @@
 
 * Employment history
 
-    + October 2022 — present
+    + October 2023 — present
+      Software Developer in Kotlin Common Backend, JetBrains
+
+    + October 2022 — October 2023
       Software Developer in Kotlin/Native, JetBrains
 
     + August 2021 — October 2022
