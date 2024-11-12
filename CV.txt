@@ -2,13 +2,13 @@
     jaskiewiczs@icloud.com
     https://broadwaylamb.com
     https://github.com/broadwaylamb
-    +31 6 29 09 81 11
 
     Active open source contributor, love compilers, programming languages
     and iOS development. Always pursuing quality.
 
 * Key skills
 
+    + Expert knowledge of Kotlin
     + Expert knowledge of Swift, including writing cross-platform
       applications and libraries.
     + Solid knowledge of C++, Rust and Python.
@@ -39,14 +39,8 @@
 
 * Employment history
 
-    + October 2023 — present
-      Software Developer in Kotlin Common Backend, JetBrains
-
-    + October 2022 — October 2023
-      Software Developer in Kotlin/Native, JetBrains
-
-    + August 2021 — October 2022
-      Software Developer in Kotlin/JS & Wasm, JetBrains
+    + August 2021 — present
+      Software Developer in Kotlin, JetBrains
 
     + August 2019 – November 2020
       C/C++ Developer, Access Softek
@@ -77,7 +71,7 @@
     + 2014 – 2018
       Saint Petersburg State University, Mathematics and Mechanics, B. Sc.
     
-    + 2018 – present
+    + 2018 – 2022
       Computer Science Center, student.
       Also assisted at teaching the C++ course.
 
